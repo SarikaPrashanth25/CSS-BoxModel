@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.jumbotron{
+    background-color: cyan;
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.cssPadding>h1, .cssBorder>h1, .cssMargin>h1{
+    background-color: dimgrey;
+    color:#fff;
+    border-radius: 5px;
+}
+.cssPadding>h1, .cssBorder>h1{
+    margin: 20px;
+}
+.cssPadding>h1:nth-child(1){
+    padding: 50px;
+}
+.cssPadding>h1:nth-child(2){
+    padding: 25px 75px;
+}
+.cssPadding>h1:nth-child(3){
+    padding: 25px 50px 75px;
+}
+.cssPadding>h1:nth-child(4){
+    padding: 25px 50px 75px 100px;
+}
+.cssBorder>h1{
+    padding: 20px;
+}
+.cssBorder>h1:nth-child(1){
+    border: 5px solid red;
+}
+.cssBorder>h1:nth-child(2){
+    border: 5px;
+    border-color: red blue;
+    border-style: solid;
+}
+.cssBorder>h1:nth-child(3){
+    border: 5px;
+    border-color: red blue black;
+    border-style: solid;
+}
+.cssBorder>h1:nth-child(4){
+    border: 5px;
+    border-color: red blue black green;
+    border-style: solid;
+}
+.cssMargin>h1:nth-child(1){
+    margin: 50px;
+}
+.cssMargin>h1:nth-child(2){
+   margin: 25px 75px;
+}
+.cssMargin>h1:nth-child(3){
+    margin: 25px 50px 75px;
+}
+.cssMargin>h1:nth-child(4){
+    margin: 25px 50px 75px 100px;
+}
+.cssBoxModel{
+    background-color: bisque;
+    padding: 20px;
+    border: 5px solid #000;
+    margin: 30px;
+    color: #808080;
+}
